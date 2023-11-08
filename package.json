@@ -29,11 +29,11 @@
     "node": ">=10"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^5.0.0",
+    "@openzeppelin/contracts": "^4.9.3",
     "@uniswap/lib": "^4.0.1-alpha",
     "@uniswap/v2-core": "^1.0.1",
     "@uniswap/v3-core": "https://github.com/0xxfu/v3-core.git",
-    "base64-sol": "1.0.1"
+    "base64-sol": "^1.1.0"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
