@@ -10,7 +10,7 @@ const LOW_OPTIMIZER_COMPILER_SETTINGS = {
     viaIR: true,
     optimizer: {
       enabled: true,
-      runs: 200,
+      runs: 2000,
     },
     metadata: {
       bytecodeHash: 'none',
@@ -24,7 +24,7 @@ const LOWEST_OPTIMIZER_COMPILER_SETTINGS = {
     viaIR: true,
     optimizer: {
       enabled: true,
-      runs: 200,
+      runs: 1000,
     },
     metadata: {
       bytecodeHash: 'none',
@@ -38,7 +38,7 @@ const DEFAULT_COMPILER_SETTINGS = {
     viaIR: true,
     optimizer: {
       enabled: true,
-      runs: 200,
+      runs: 1_000_000,
     },
     metadata: {
       bytecodeHash: 'none',
