@@ -1592,10 +1592,9 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@uniswap/lib@^4.0.1-alpha":
+"@uniswap/lib@https://github.com/0xxfu/solidity-lib.git":
   version "4.0.1-alpha"
-  resolved "https://registry.npmmirror.com/@uniswap/lib/-/lib-4.0.1-alpha.tgz#2881008e55f075344675b3bca93f020b028fbd02"
-  integrity sha512-f6UIliwBbRsgVLxIaBANF6w09tYqc6Y/qXdsrbEmXHyFA7ILiKrIwRFXe1yOg8M3cksgVsO9N7yuL2DdCGQKBA==
+  resolved "https://github.com/0xxfu/solidity-lib.git#8f715e92afb68ec4fa741b6fc3f64d49137a4b3e"
 
 "@uniswap/v2-core@^1.0.1":
   version "1.0.1"

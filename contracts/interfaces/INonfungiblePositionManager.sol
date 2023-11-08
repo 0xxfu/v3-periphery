@@ -19,7 +19,6 @@ interface INonfungiblePositionManager is
     IPeripheryPayments,
     IPeripheryImmutableState,
     IERC721Metadata,
-    IERC721Enumerable,
     IERC721Permit
 {
     /// @notice Emitted when liquidity is increased for a position NFT

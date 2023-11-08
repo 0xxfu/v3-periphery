@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.9.3",
-    "@uniswap/lib": "^4.0.1-alpha",
+    "@uniswap/lib": "https://github.com/0xxfu/solidity-lib.git",
     "@uniswap/v2-core": "^1.0.1",
     "@uniswap/v3-core": "https://github.com/0xxfu/v3-core.git",
     "base64-sol": "^1.1.0"

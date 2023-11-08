@@ -7,10 +7,10 @@ import 'hardhat-watcher'
 const LOW_OPTIMIZER_COMPILER_SETTINGS = {
   version: '0.8.21',
   settings: {
-    evmVersion: 'istanbul',
+    viaIR: true,
     optimizer: {
       enabled: true,
-      runs: 2_000,
+      runs: 200,
     },
     metadata: {
       bytecodeHash: 'none',
@@ -21,10 +21,10 @@ const LOW_OPTIMIZER_COMPILER_SETTINGS = {
 const LOWEST_OPTIMIZER_COMPILER_SETTINGS = {
   version: '0.8.21',
   settings: {
-    evmVersion: 'istanbul',
+    viaIR: true,
     optimizer: {
       enabled: true,
-      runs: 1_000,
+      runs: 200,
     },
     metadata: {
       bytecodeHash: 'none',
@@ -35,10 +35,10 @@ const LOWEST_OPTIMIZER_COMPILER_SETTINGS = {
 const DEFAULT_COMPILER_SETTINGS = {
   version: '0.8.21',
   settings: {
-    evmVersion: 'istanbul',
+    viaIR: true,
     optimizer: {
       enabled: true,
-      runs: 1_000_000,
+      runs: 200,
     },
     metadata: {
       bytecodeHash: 'none',
